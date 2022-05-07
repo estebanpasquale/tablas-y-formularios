@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>¿Que es un formulario html y para que sirve?</h1>
+    <p>form es una etiqueta de HTML que representa un formulario. En este formulario se agregan los diferentes campos de entrada de datos o de confirmación, así como los botones, que como mínimo ha de haber uno, el de envío.</p>
+    <h1>Etiquetas basicas</h1>
+    <p><u>FORM:</u> Dentro de ellas se colocan todos los atributos necesarios para dar estructura a tu formulario.</p>
+    <p><u>INPUT:</u>  Su etiqueta es <.input> Cuenta con diferentes tipos de entrada</p>
+        <p><u>SELECT:</u>  Su etiqueta es <,select></p>
+        <p><u>TEXTAREA:</u> Su etiqueta es <.textarea></p>
+            <h1>Formulario</h1>
+            <form action="#" method="post"> 
+         <fieldset>
+             <legend>Datos Personales</legend>
+             <p>
+                 <label>Nombre:</label>
+                 <input type="text" name="Nombre" required>
+             </p>
+             <p>
+                 <label>Apellido:</label>
+                 <input type="text" name="Apellido" required>
+
+             </p>
+             <p>
+                 <label>DNI:</label>
+                 <input type="text" name="DNI" required>
+             </p>
+             <p>
+                 <label>Num de Telefono:</label>
+                 <input type="number" name="Numero de Telefono" required>
+             </p>
+             <p>
+                 <label>Correo</label>
+                 <input type="email" name="Correo" required>
+             </p>
+         </fieldset>
+         <fieldset>
+             <legend>Datos del Vehiculo</legend>
+             <p>
+             <label>Marca del vehiculo</label>
+             <input type="text" name="Marca del Vehiculo" required>
+            </p>
+            <p>
+                <label>Patente del Vehiculo</label>
+                <input type="text" name="Patente" required>
+            </p>
+            <p>
+                <label>Seguro del vehiculo</label>
+                <input type="text" name="Seguro" required>
+            </p>
+            <p>
+                <label>Color del Vehiculo</label>
+                <input type="color" name="Color" required>
+            </p>
+            <textarea name="Opiniones" id="" cols="30" rows="10"></textarea>
+
+         </fieldset>
+         <p>
+             <button type="submit">enviar</button>
+         </p>
+
+            </form>
+</body>
+</html>
